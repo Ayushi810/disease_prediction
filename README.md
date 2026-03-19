@@ -26,3 +26,20 @@ The system uses classification algorithms like Logistic Regression and Decision 
 
 ~Project Objective
 The main goal of this project is to demonstrate how machine learning can be used in healthcare for early disease prediction and decision-making.
+This project is a Machine Learning-based web application that predicts the likelihood of diabetes based on user input features such as glucose level, BMI, age, and other medical parameters.
+
+How It Works
+1. User enters health-related data (e.g., glucose level, BMI, age)
+2. Data is processed and passed to trained ML model
+3. Model predicts whether the person is likely to have diabetes
+4. Result is displayed instantly on the web app.
+
+## ▶️ How to Run the Project
+
+### Step 1: Clone the repository
+git clone https://github.com/your-username/disease_prediction.git
+cd disease_prediction
+### Step 2: Install dependencies
+pip install -r requirements.txt
+### Step 3: Run the app
+streamlit run app.py
